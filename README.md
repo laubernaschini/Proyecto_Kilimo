@@ -13,7 +13,7 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
    Se realizó una exploración, limpieza y curación de datos:
    
       - Eliminación de columnas irrelevantes
-      - Filtrado de datos
+      - Filtrado de datos 
       - Identificación de datos faltantes, nulos y atípicos
       - Exploración visual de variables categóricas y numéricas 
       - Análisis estadísticos simples de variables cuantitativas relevantes
@@ -31,9 +31,9 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
    
    Estandarización, codificación y reducción de la dimensionalidad de los datos
   
-      - Estandarización de variables numéricas
-      - Codificación de variables categóricas 
-      - Reducción de dimensionalidad de los datos (variables de componentes principales)
+      - Estandarización de variables numéricas-> MinMaxScaler()
+      - Codificación de variables categóricas -> OneHotEncoder
+      - Reducción de dimensionalidad de los datos (variables de componentes principales - PCA)
       
       
       
@@ -45,7 +45,20 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
    
       - Regresión lineal  
       - Random Forest 
-      - Selección de hiperparámetros del mejor modelo
+      - Selección de hiperparámetros del mejor modelo (GridSearchCV - )
+      
+      
+El modelo de regresión con mejor desempeño fue Random Forest, utilizando como input (variables de entrada) las variables primarias, sin aplicar técnicas de reducción de dimensión. Las métricas obtenidas fueron:
+
+MSE: 30.327.131,22
+
+MAE: 2.362,91
+
+R²: 0,96
+
+Según las predicciones del modelo, el rendimiento del cultivo de maíz tiende a incrementarse con mayores niveles de aplicación de fertilizantes nitrogenados y pesticidas. Asimismo, los rendimientos más altos se registran bajo condiciones de temperaturas más bajas y precipitaciones moderadas. Por lo tanto, las decisiones de manejo deben adaptarse a las condiciones climáticas específicas de cada región. 
+
+Para aumentar la robustez del modelo y mejorar la precisión de las predicciones, se recomienda incorporar nuevas variables explicativas, como el tipo de prácticas agrícolas implementadas o la clase de pesticidas utilizados, entre otras.   
 
 
       
