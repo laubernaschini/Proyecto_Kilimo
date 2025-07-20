@@ -4,14 +4,14 @@
 El objetivo es crear una solución que permita a los agricultores tomar decisiones informadas sobre sus cultivos.
 
 
-
-1. Data Engineering
+1. **Data Engineering**
 
 1.1. Pipeline de Datos: (notebook Pipeline_datos)
 
 - Se cargó el dataset principal
 
 - Se realizó una exploración, lipieza y curación de datos:
+
       1) eliminación de columnas irrelevantes, 
       2) filtrado de datos, 
       3) identificación de datos faltantes, nulos y atípicos
@@ -22,6 +22,7 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
 1.2. Feature Engineering: (notebook Feature_Engineering)     
       
 - Feature Engineering: se incorporaron al dataset 3 variables 
+
       1) fertilizantes ("N_kg/ha"), obtenida a partir de la base de datos de FAOSTAT
       2) carga de pesticidas "pesticide_load", variable categórica creada a partir de la variable "pesticides_tonnes"
       3) continente "continent", variable categórica que engloba los países de la columna "Area"
@@ -33,9 +34,9 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
       
       
       
-3. ML Engineering:  (notebook Feature_Engineering)     
+3. **ML Engineering:**
 
-3.1 Modelos:
+3.1 Modelos: (notebook Feature_Engineering)     
       1) Regresión lineal  
       2) Random Forest 
       3) Selección de hiperparámetros del mejor modelo
