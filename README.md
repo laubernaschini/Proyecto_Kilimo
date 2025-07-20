@@ -39,13 +39,13 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
       
 2. **ML Engineering:**
 
-   2.1 Modelos: (notebook Feature_Engineering) 
+   2.1 Modelos: (notebook FeaEngineering) 
    
    Modelos regresivos, validación, selección de hiperparámetros
    
       - Regresión lineal  
       - Random Forest 
-      - Selección de hiperparámetros del mejor modelo (GridSearchCV - )
+      - Selección de hiperparámetros del mejor modelo (GridSearchCV-RandomizedSearchCV)
       
       
 El modelo de regresión con mejor desempeño fue Random Forest, utilizando como input (variables de entrada) las variables primarias, sin aplicar técnicas de reducción de dimensión. Las métricas obtenidas fueron:
