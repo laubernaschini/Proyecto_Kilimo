@@ -33,19 +33,19 @@ El objetivo es crear una solución que permita a los agricultores tomar decision
   
        1) Estandarización de variables numéricas
        2) Codificación de variables categóricas 
-       3Reducción de dimensionalidad de los datos (variables de componentes principales)
+       3) Reducción de dimensionalidad de los datos (variables de componentes principales)
       
       
       
-3. **ML Engineering:**
+2. **ML Engineering:**
 
-   3.1 Modelos: (notebook Feature_Engineering) 
+   2.1 Modelos: (notebook Feature_Engineering) 
    
    - Modelos regresivos, validación, selección de hiperparámetros
    
-       Regresión lineal  
-       Random Forest 
-       Selección de hiperparámetros del mejor modelo
+       1) Regresión lineal  
+       2) Random Forest 
+       3) Selección de hiperparámetros del mejor modelo
 
 
       
